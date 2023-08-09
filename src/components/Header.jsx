@@ -10,7 +10,7 @@ const Header = () => {
                 </div>
                 <div id="searchAndUserLogin">
                     <div id="search">
-                        <img src={search} alt="Search icon" />
+                        <img id='searchImg' src={search} alt="Search icon" />
                     </div>
                     <div id="loginUser">
                         <h3>Fazer login</h3>

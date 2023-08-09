@@ -126,3 +126,117 @@ h1{
   position: relative;
   top: 75px;
 }
+
+/*final informs*/
+
+#informsBaseboard{
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 942px;
+  justify-content: space-between;
+  width: 1128px;
+  margin: auto;
+}
+#informsBaseboard h5{
+  font-size: 20px;
+  font-family: var(--lora);
+  color: var(--colorText);
+  border-left: solid 3px #6610F2;
+  padding-left: 12px;
+}
+#informsBaseboard p{
+  font-size: 16px;
+  margin-top: 25px;
+  font-family: var(--inter);
+  color: var(--colorText);
+  font-style: italic;
+  line-height: 162.5%;
+}
+.baseboard{
+  width: 400px;
+}
+
+@media(max-width: 1000px){
+  /*header*/
+  header{
+    width: 90%;
+    margin: 17px auto;
+  }
+  .memojis{
+    display: none;
+  }
+  #memojisDown{
+    display: none;
+  }
+  #search{
+    padding: 7.2px;
+    border-radius: 50%;
+  }
+  #searchImg{
+    width: 15px;
+  }
+  h3{
+    display: none;
+  }
+  h1{
+    font-size: 32px;
+    font-family: var(--lora);
+    margin-bottom: 40px;
+    color: var(--colorText);
+  }
+  #searchAndUserLogin{
+    display: flex;
+    align-items: center;
+    width: 75px;
+    justify-content: space-between;
+  }
+  #loginUser{
+    background-image: url(./assets/user.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+    border-radius: 50%;
+  }
+  #informs{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 59px;
+  }
+  #containerBody{
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+
+  /*final informs*/
+  #informsBaseboard{
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .baseboard{
+    width: 100%;
+  }
+  #buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  #library{
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-left: 0;
+  }
+  #createMemoji{
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-left: 0;
+  }
+}
