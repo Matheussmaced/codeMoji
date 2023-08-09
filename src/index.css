@@ -47,12 +47,21 @@ h2{
 }
 
 /*Body*/
-
+/*infomations*/
+#containerBody{
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 #informs{
-  width: 792px;
-  margin: auto;
+  display: flex;
+  width: 1010px;
   text-align: center;
   margin-top: 235px;
+}
+#descripition{
+  display: block;
 }
 p{
   font-size: 24px;
@@ -63,12 +72,57 @@ h1{
   font-size: 64px;
   font-family: var(--lora);
   margin-bottom: 80px;
+  color: var(--colorText);
 }
-button{
+/*Buttons*/
+#createMemoji{
   padding: 15px 48px;
   font-size: 24px;
   border: none;
   color: #f9f9f9;
   background-color: #6610F2;
   border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#library{
+  padding: 15px 48px;
+  font-size: 24px;
+  margin-left: 72px;
+  border-radius: 6px;
+  border: 2px solid var(--borderIcons);
+  background-color: #fff;
+  color: var(--colorText);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/*memojis*/
+.memojis{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#memojisRight{
+  margin-left: 18px;
+  margin-top: -52px;
+}
+#memojisLeft{
+  padding-right: 25px;
+}
+#memojisDown{
+  display: flex;
+  position: relative;
+  width: 990px;
+  justify-content: space-between;
+  top: 675px;
+  margin: auto;
+}
+#yoru{
+  position: relative;
+  left: 25px;
+}
+#raze{
+  position: relative;
+  top: 75px;
 }
