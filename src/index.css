@@ -28,7 +28,14 @@ h2{
   font-family: var(--lora);
   font-size: 32px;
   color: var(--colorText);
+  cursor: pointer;
+  transition: transform 1s ease;
 }
+h2:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 /*Icons header*/
 #search{
   padding: 12px;
@@ -36,6 +43,11 @@ h2{
   border: solid 2px var(--borderIcons);
   background-color: #fff;
   cursor: pointer;
+  transition: transform 1s ease;
+}
+#search:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 #loginUser{
   background-color: #fff;
@@ -44,6 +56,11 @@ h2{
   font-family: var(--inter);
   color: var(--colorText);
   cursor: pointer;
+  transition: transform 1s ease;
+}
+#loginUser:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 /*Body*/
@@ -84,6 +101,12 @@ h1{
   border-radius: 6px;
   text-transform: uppercase;
   font-weight: 600;
+  cursor: pointer;
+  transition: transform 1s ease;
+}
+#createMemoji:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 #library{
   padding: 15px 48px;
@@ -95,6 +118,12 @@ h1{
   color: var(--colorText);
   text-transform: uppercase;
   font-weight: 600;
+  cursor: pointer;
+  transition: transform 1s ease;
+}
+#library:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 /*memojis*/
