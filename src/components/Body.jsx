@@ -29,9 +29,9 @@ const Body = () => {
         </div>
       </div>
       <div id="memojisDown">
-        <img src={yoru} alt="KillJoy" id="yoru" />
-        <img src={raze} alt="KillJoy" id="raze" />
-        <img src={reyna} alt="KillJoy" />
+        <img className="finalMemojis" src={yoru} alt="KillJoy" id="yoru" />
+        <img className="finalMemojis" src={raze} alt="KillJoy" id="raze" />
+        <img className="finalMemojis" src={reyna} alt="KillJoy" />
       </div>
 
         <div id="informsBaseboard">
