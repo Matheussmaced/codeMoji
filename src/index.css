@@ -144,6 +144,7 @@ h1{
   color: var(--colorText);
   border-left: solid 3px #6610F2;
   padding-left: 12px;
+  text-transform: uppercase;
 }
 #informsBaseboard p{
   font-size: 16px;
@@ -216,9 +217,13 @@ h1{
   #informsBaseboard{
     display: flex;
     flex-direction: column;
-    top: 50px;
+    top: 64px;
     justify-content: space-between;
     width: 90%;
+  }
+  #informsBaseboard h5{
+    font-size: 16px;
+    padding-left: 15px;
   }
   .baseboard{
     width: 100%;
