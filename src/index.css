@@ -47,3 +47,28 @@ h2{
 }
 
 /*Body*/
+
+#informs{
+  width: 792px;
+  margin: auto;
+  text-align: center;
+  margin-top: 235px;
+}
+p{
+  font-size: 24px;
+  font-family: var(--inter);
+  margin-bottom: 24px;
+}
+h1{
+  font-size: 64px;
+  font-family: var(--lora);
+  margin-bottom: 80px;
+}
+button{
+  padding: 15px 48px;
+  font-size: 24px;
+  border: none;
+  color: #f9f9f9;
+  background-color: #6610F2;
+  border-radius: 6px;
+}
